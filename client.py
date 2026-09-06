@@ -60,6 +60,5 @@ class AgentReflexionLoopClient:
         lines = ["=== PAST TRIAL LESSONS & SELF-REFLECTIONS ==="]
         for r in self.reflection_memory:
             lines.append(f"[Trial {r['trial_index']}]: {r['critique']}")
-        lines.append("Use the above reflections to avoid previous failure modes.
-")
+        lines.append("Use the above reflections to avoid previous failure modes.")
         return chr(10).join(lines)
