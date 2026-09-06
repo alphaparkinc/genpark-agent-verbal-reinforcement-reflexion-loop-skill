@@ -1,0 +1,15 @@
+{
+  "name": "genpark-agent-verbal-reinforcement-reflexion-loop-skill",
+  "version": "1.0.0",
+  "description": "Episodic verbal self-reflection memory, failure trajectory analyzer, and self-correction prompt optimizer.",
+  "author": "GenPark AI",
+  "license": "MIT",
+  "keywords": [
+    "reflexion",
+    "self-reflection",
+    "reinforcement",
+    "memory",
+    "genpark",
+    "mcp"
+  ]
+}
